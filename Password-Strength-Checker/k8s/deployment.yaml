@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: password-strength-checker
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: password-strength
+  template:
+    metadata:
+      labels:
+        app: password-strength
+    spec:
+      containers:
+      - name: password-strength
+        image: dotaminterview/password-strength-checker:latest
+        ports:
+        - containerPort: 3000
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "256Mi"
