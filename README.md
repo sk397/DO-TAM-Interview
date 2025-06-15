@@ -15,9 +15,6 @@ See the `k8s/` folder for deployment files and follow the README instructions to
 Attached Presentation file shows the step by step process on how to implement the same.
 
 
-# Deployment Guide for refernce
-
-
 # Deploying a Scalable Web App on DigitalOcean Kubernetes (DOKS)
 
 This guide explains how to deploy this containerized web app using DigitalOcean Kubernetes (DOKS) with a load balancer and autoscaling.
