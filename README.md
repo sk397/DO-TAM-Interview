@@ -23,11 +23,12 @@ This guide explains how to deploy this containerized web app using DigitalOcean 
 
 ## Prerequisites
 
-- Docker installed  
+- Docker installed
 - A Docker Hub account  
 - A DigitalOcean account  
 - `kubectl` installed  
-- (Optional) `doctl` CLI for automation  
+- (Optional) `doctl` CLI for automation
+- NodeJs JavaScript Library
 
 ---
 
